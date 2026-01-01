@@ -65,8 +65,7 @@ dbt Core – Transformations & modeling
 SQL – Business logic
 
 YAML Metadata – Pipeline configuration
-```text
-```
+
 ## 📂 Project Structure
 ```
 .
@@ -136,8 +135,7 @@ This project uses Python 3.12, uv, and dbt.
 Python >= 3.12
 
 uv (Python package manager)
-```
-```
+
 ## 2️⃣ Install Dependencies
 
 Dependencies are defined in pyproject.toml:
@@ -154,26 +152,30 @@ dependencies = [
 ]
 ```
 Install them using:
-
+```
 uv sync
-
+```
 3️⃣ Configure dbt Profile
 
 Create the file:
-
+```
 ~/.dbt/profiles.yml
-
+```
 
 Configure Snowflake credentials as per your environment.
 
 4️⃣ Run dbt
+```
 dbt deps
 dbt run
 dbt snapshot
 dbt test
+```
 
 ✅ Recommended (Single Command)
+```
 dbt build
+```
 
 🚀 Future Enhancements
 
@@ -188,15 +190,10 @@ BI dashboards (Power BI / Tableau)
 👤 Author
 
 Mohit Joshi
-```
 
----
 
 ## 📚 References
 
 This project was inspired by and takes reference from the following resources:
 
 - YouTube: *Airbnb dbt & Snowflake Data Engineering Tutorial* — https://www.youtube.com/watch?v=3SZSDKEZqoA
-
-```
-
