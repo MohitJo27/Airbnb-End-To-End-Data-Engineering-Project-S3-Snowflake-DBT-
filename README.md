@@ -62,10 +62,6 @@ Snowflake – Cloud data warehouse
 
 dbt Core – Transformations & modeling
 
-SQL – Business logic
-
-YAML Metadata – Pipeline configuration
-
 ## 📂 Project Structure
 ```
 .
@@ -197,3 +193,4 @@ Mohit Joshi
 This project was inspired by and takes reference from the following resources:
 
 - YouTube: *Airbnb dbt & Snowflake Data Engineering Tutorial* — https://www.youtube.com/watch?v=3SZSDKEZqoA
+
