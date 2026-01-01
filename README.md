@@ -68,8 +68,7 @@ YAML Metadata – Pipeline configuration
 ```text
 ```
 ## 📂 Project Structure
-```text
-
+```
 .
 ├── models
 │   ├── bronze        # Raw standardized data
@@ -200,3 +199,4 @@ This project was inspired by and takes reference from the following resources:
 - YouTube: *Airbnb dbt & Snowflake Data Engineering Tutorial* — https://www.youtube.com/watch?v=3SZSDKEZqoA
 
 ```
+
